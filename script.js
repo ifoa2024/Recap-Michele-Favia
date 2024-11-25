@@ -130,5 +130,38 @@
 // document.getElementById('output').textContent = 'Ciao, ' + text + '!';
 // ---------------------------------------------------------------------------------------------------------
 // ESERCIZIO 7
-
+// Array dei giorni e degli orari di apertura
+// let openingDays = [
+//     { day: 'Lunedi', from: '9.00', to: '18.00' },
+//     { day: 'Martedi', from: '9.00', to: '18.00' },
+//     { day: 'Mercoledi', from: '9.00', to: '18.00' },
+//     { day: 'Giovedi', from: '9.00', to: '18.00' },
+//     { day: 'Sabato', from: '9.00', to: '18.00' },
+//     { day: 'Domenica', from: '9.00', to: '18.00' }
+//   ];
   
+  
+//   function createOpeningHoursList() {
+    
+//     const ulElement = document.getElementById('openings');
+  
+ 
+//     openingDays.forEach(dayInfo => {
+
+//       const li = document.createElement('li');
+      
+
+//       li.textContent = `${dayInfo.day}: dalle ${dayInfo.from} alle ${dayInfo.to}`;
+      
+      
+//       ulElement.appendChild(li);
+//     });
+//   }
+  
+
+//   createOpeningHoursList();
+  
+// ---------------------------------------------------------------------------------------------------------
+// ESERCIZIO 8
+
+
