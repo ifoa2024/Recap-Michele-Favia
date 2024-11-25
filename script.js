@@ -6,7 +6,7 @@
 
 function addSaluto(list) {
     return list.map(dev => {
-      dev.saluto = `Ciao ${dev.firstName}, cosa ti piace di più di${dev.language}?`;
+      dev.saluto = `Ciao ${dev.firstName}, ${dev.language}?`;
       return dev; 
     });
   }
