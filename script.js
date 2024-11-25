@@ -28,3 +28,36 @@
 // - crea una funzione che ritorni un array
 // - e aggiunga a ogni oggetto la proprietà ‘greeting’ con il seguente valore:
 //     - “Awe < firstName >, io lavoro con < language here >, ma effettivamente è meglio javascript”
+
+// function addGreeting(list) {
+//     return list.map(person => {
+//       return {
+//         ...person,
+//         greeting: `Ciao ${person.firstName}, cosa ti piace di più di ${person.language}?`
+//       };
+//     });
+//   }
+  
+//   let list = [
+//     { firstName: 'Sofia', lastName: 'I.', country: 'Argentina', continent: 'Americas', age: 35, language: 'Java' },
+//     { firstName: 'Luca', lastName: 'X.', country: 'Croatia', continent: 'Europe', age: 35, language: 'Python' },
+//     { firstName: 'Lucia', lastName: 'U.', country: 'United States', continent: 'Americas', age: 32, language: 'Ruby' }
+//   ];
+  
+//   let updatedList = addGreeting(list);
+//   console.log(updatedList);
+  
+
+//   [
+//     { firstName: 'Sofia', lastName: 'I.', country: 'Argentina', continent: 'Americas', age: 35, language: 'Java',
+//       greeting: 'Ciao Sofia, cosa ti piace di più di Java?'
+//     },
+//     { firstName: 'Luca', lastName: 'X.', country: 'Croatia', continent: 'Europe', age: 35, language: 'Python',
+//       greeting: 'Ciao Luca, cosa ti piace di più di Python?'
+//     },
+//     { firstName: 'Lucia', lastName: 'U.', country: 'United States', continent: 'Americas', age: 32, language: 'Ruby',
+//       greeting: 'Ciao Madonna, cosa ti piace di più di Ruby?'
+//     }
+//   ]
+// ---------------------------------------------------------------------------------------------------------
+// ESERCIZIO 3
