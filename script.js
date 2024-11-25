@@ -76,3 +76,30 @@
     
 // ---------------------------------------------------------------------------------------------------------
 // ESERCIZIO 4
+// function findDeveloperByLanguage(list, language) {
+//     // Trova il primo sviluppatore con il linguaggio specificato
+//     const developer = list.find(person => person.language === language);
+  
+//     // Se trovato, ritorna il nome e il paese, altrimenti ritorna il messaggio di non trovato
+//     if (developer) {
+//       return `${developer.firstName}, ${developer.country}`;
+//     } else {
+//       return `Non ci sono sviluppatori ${language}`;
+//     }
+//   }
+  
+//   let list = [
+//     { firstName: 'Mark', lastName: 'G.', country: 'Scotland', continent: 'Europe', age: 22, language: 'JavaScript' },
+//     { firstName: 'Victoria', lastName: 'T.', country: 'Puerto Rico', continent: 'Americas', age: 30, language: 'Python' },
+//     { firstName: 'Emma', lastName: 'B.', country: 'Norway', continent: 'Europe', age: 19, language: 'Clojure' }
+//   ];
+  
+//   // Chiamata per cercare uno sviluppatore Python
+//   let result = findDeveloperByLanguage(list, 'Python');
+//   console.log(result);
+  
+//   // Chiamata per cercare uno sviluppatore Ruby
+//   result = findDeveloperByLanguage(list, 'Ruby');
+//   console.log(result);  // Risultato: "Non ci sono sviluppatori Ruby"
+  // ---------------------------------------------------------------------------------------------------------
+// ESERCIZIO 5
