@@ -103,3 +103,32 @@
 //   console.log(result);  // Risultato: "Non ci sono sviluppatori Ruby"
   // ---------------------------------------------------------------------------------------------------------
 // ESERCIZIO 5
+// function showUserStatus(list) {
+//     const loggedTrue = true;  
+//     const loggedFalse = false; 
+  
+//     list.forEach(user => {
+//       if (user.logged === loggedTrue) {  
+//         alert("L'utente è stato registrato.");
+//       } else if (user.logged === loggedFalse) {
+//         alert("L'utente non è registrato.");
+//       }
+//     });
+//   }
+  
+//   let list = [
+//     { firstName: 'Emma', lastName: 'Z.', country: 'Netherlands', continent: 'Europe', age: 29, logged: true },
+//     { firstName: 'Piotr', lastName: 'B.', country: 'Poland', continent: 'Europe', age: 128, logged: false },
+//     { firstName: 'Jayden', lastName: 'P.', country: 'Jamaica', continent: 'Americas', age: 42, logged: true }
+//   ];
+  
+//   // Chiamata della funzione per mostrare gli alert
+//   showUserStatus(list);
+// ---------------------------------------------------------------------------------------------------------
+// ESERCIZIO 6
+// let text = prompt('Come ti chiami?');
+// document.getElementById('output').textContent = 'Ciao, ' + text + '!';
+// ---------------------------------------------------------------------------------------------------------
+// ESERCIZIO 7
+
+  
